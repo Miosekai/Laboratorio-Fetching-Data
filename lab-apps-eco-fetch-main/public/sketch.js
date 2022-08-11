@@ -30,7 +30,7 @@ function draw() {
     if (catFact != null) {
         textSize(20);
         textWrap(WORD);
-        text(catFact.fact,130, 400, 460)
+        text(catFact.fact, 100, 400, 460)
     }
 
     if (dogImage != null) {
@@ -57,26 +57,30 @@ function draw() {
 
 // 199, 430, 800
     button1 = createButton('Random');
-    button1.position(1319, 525);
+    button1.size(212, 38);
+    button1.position(890, 525);
     button1.mousePressed(changeBG); 
 
     button = createButton('Bitcoin Price');
-    button.position(990, 449);
+    button.size(212, 38);
+    button.position(890, 449);
     button.mousePressed(buttonBitcoin);
     //435
 
     button2 = createButton('Random dog');
-    button2.position(1350, 375);
+    button2.size(212, 38);
+    button2.position(1220, 369);
     button2.mousePressed(buttonDog);
 
     button3 = createButton('Random fact - Cat');
-    button3.size(324,57);
-    button3.position(1350, 450);
+    button3.size(212, 38);
+    button3.position(1220, 449);
     button3.mousePressed(buttonCat);
     
 
     button4 = createButton('Random user');
-    button4.position(987, 369);
+    button4.size(212, 38);
+    button4.position(890, 369);
     button4.mousePressed( buttonUser);}
     //button4.size(200,150);
 
